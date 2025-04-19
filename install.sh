@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt update
-sudo apt install -y zsh
+sudo apt-get update
+sudo apt-get install -y zsh
 
 # Папка для плагинов zsh:
 mkdir -pv $HOME/.zsh
