@@ -2,11 +2,15 @@
 sudo apt-get update
 sudo apt-get install -y zsh
 
+echo "до mkdir"
+
 # Папка для плагинов zsh:
 mkdir -pv $HOME/.zsh
 
+echo "после mkdir"
+
 # Путь к папке со скриптом:
-SCRIPT_DIR=$($0)
+SCRIPT_DIR=dirname $($0)
 
 cp $SCRIPT_DIR/.zshrc $HOME/
 
