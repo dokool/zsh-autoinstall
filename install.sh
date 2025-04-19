@@ -10,7 +10,7 @@ mkdir -p -v $HOME/.zsh
 echo "после mkdir"
 
 # Путь к папке со скриптом:
-SCRIPT_DIR=dirname $($0)
+SCRIPT_DIR=dirname $0
 
 echo "SCRIPT_DIR = $SCRIPT_DIR"
 
