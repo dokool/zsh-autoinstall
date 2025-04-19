@@ -3,7 +3,7 @@ sudo apt update
 sudo apt install -y zsh
 
 # Папка для плагинов zsh:
-mkdir $HOME/.zsh
+mkdir -pv $HOME/.zsh
 
 # Путь к папке со скриптом:
 SCRIPT_DIR=$($0)
